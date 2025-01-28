@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:600);
+
+.rotating-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 4vw; /* Responsive font size based on viewport width */
+  color: white;
+  position: relative;
+  overflow: hidden; /* Prevents content from overflowing */
+  max-width: 100%; /* Ensure the container never exceeds the screen width */
+  word-wrap: break-word; /* Ensures the text wraps properly on smaller screens */
+  padding: 0 16px; /* Add padding to the container */
+}
+
+.word {
+  position: relative;
+  display: inline-block; /* Ensure the words are inline and not absolute */
+  opacity: 0;
+  white-space: nowrap; /* Prevent word breaking inside the span */
+}
+
+.letter {
+  transform-origin: center center 25px;
+  opacity: 0; /* Initial opacity of each letter */
+  transition: transform 0.32s cubic-bezier(0.6, 0, 0.7, 0.2), opacity 0.32s ease; /* Smooth transitions for transform and opacity */
+}
+
+/* Transition for when letters move out */
+.letter.out {
+  transform: rotateX(90deg);
+  opacity: 0;
+}
+
+/* Transition for when letters come in */
+.letter.in {
+  transform: rotateX(0deg);
+  opacity: 1; /* Make letters visible */
+}
+
+/* Transition for the letters when they are behind the word */
+.letter.behind {
+  transform: rotateX(-90deg);
+  opacity: 0;
+}
+
+/* Tailwind color palette */
+.alizarin {
+  color: #e74c3c;
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.peter-river {
+  color: #3498db;
+}
+
+.emerald {
+  color: #2ecc71;
+}
+
+.sun-flower {
+  color: #f1c40f;
+}

@@ -6,6 +6,7 @@ div#root {
   min-height: 100vh;
   width: 100%;
   background: #282a35e6;
+  overflow: hidden;
 }
 .landing {
   background: url(./assets/background_in_space.webp) no-repeat;

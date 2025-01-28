@@ -12,6 +12,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
 import React from "react";
+
 import { Link } from "react-router-dom";
 import scrollToTop from "../hooks/scrollToTop";
 
@@ -25,8 +26,9 @@ const pages = [
   { name: "Services", link: "/Services" }, // New item
   { name: "About", link: "/About" }, // New item
   { name: "Learn", link: "/Learn" }, // New item
+  { name: "Login", link: "/Login" }, // New item
 ];
-const settings = ["Profile", "Account", "Dashboard", "NetPulse ut"];
+const settings = ["Profile", "Account", "Dashboard", "ZeroWebSchool ut"];
 
 function ResponsiveAppBar({ toggleDrawer }) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -92,7 +94,7 @@ function ResponsiveAppBar({ toggleDrawer }) {
             to="/"
             onClick={() => scrollToTop()}
           >
-            NetPulse
+            ZeroWebSchool
           </Link>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>

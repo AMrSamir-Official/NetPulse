@@ -37,6 +37,8 @@ import LandingPage from "./pages/Landing";
 
 import BasicCard from "./components/BasicCard";
 import AboutPage from "./pages/AboutPage";
+import AuthPage from "./pages/AuthPage";
+import SwipeSectionPage from "./pages/CarouselPage";
 import ErrorBoundary from "./pages/ErrorBoundary";
 import FAQ from "./pages/FAQ";
 import CustomPage from "./pages/FinalPage";
@@ -58,6 +60,8 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       { path: "", element: <LandingPage /> },
+      { path: "/login", element: <AuthPage /> },
+      { path: "/SwipeSectionPage", element: <SwipeSectionPage /> },
       { path: "/channels", element: <ChannelsPage /> },
       { path: "/docs", element: <Docs /> },
       { path: "/playlists/:channelId", element: <ChannelPlaylistsPage /> },

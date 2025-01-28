@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import steps from "../Constant/Steps"; // Import steps from the specified path
+import steps from "../Constant/steps"; // Import steps from the specified path
 
 const CustomPage = () => {
   const [htmlCode, setHtmlCode] = useState(

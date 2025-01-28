@@ -60,7 +60,7 @@ const socialLinks = [
 function Footer() {
   return (
     <footer className="p-12 relative bg-[#132b33]  ">
-      <img src={Logo} className="w-12 h-12 " alt="NetPulse " />
+      <img src={Logo} className="w-12 h-12 " alt="ZeroWebSchool " />
       <Grid container spacing={2} sx={{ p: 2 }}>
         <Grid item xs={12} sm={4}>
           <Typography variant="h6">Top Tutorials</Typography>
@@ -104,15 +104,15 @@ function Footer() {
             Net Pulse is optimized for learning and training. Examples might be
             simplified to improve reading and learning. Tutorials, references,
             and examples are constantly reviewed to avoid errors, but we cannot
-            warrant full correctness of all content. While using NetPulse, you
-            agree to have read and accepted our terms of use, cookie, and
+            warrant full correctness of all content. While using ZeroWebSchool,
+            you agree to have read and accepted our terms of use, cookie, and
             privacy policy.
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6}>
           <Typography variant="h6">About Academy</Typography>
           <Typography variant="body2">
-            Copyright2024 by Refsnes Data. All Rights Reserved. NetPulse is
+            Copyright2024 by Refsnes Data. All Rights Reserved. ZeroWebSchool is
             Powered by amrsamir.vercel.app.
           </Typography>
         </Grid>

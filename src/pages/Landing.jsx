@@ -1,8 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Box, Container, Grid, Paper, Typography } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import SearchForm from "../components/Search";
-import LangSection from "../pages/LangSection";
+import TrendingCarousel from "../components/TrendingCarouse";
+import SwipeSectionPage from "./CarouselPage";
 const theme = createTheme({
   palette: {
     mode: "dark",
@@ -32,7 +33,7 @@ function LandingPage() {
       >
         <Container>
           <Typography variant="h2" component="h1" gutterBottom>
-            Learn to{" "}
+            How to{" "}
             <span
               style={{
                 background: "#05a5d7",
@@ -40,11 +41,11 @@ function LandingPage() {
                 padding: "7px 9px",
               }}
             >
-              Code
+              Learn
             </span>
           </Typography>
           <Typography variant="h5" component="h2" paragraph>
-            With the NetPulse web developer site.
+            With the ZeroWebSchool Ultimate free learning.
           </Typography>
           <SearchForm />
           <Typography variant="h6" component="h3" sx={{ marginTop: "20px" }}>
@@ -74,75 +75,9 @@ function LandingPage() {
           backgroundColor: "transparent",
         }}
       >
-        <Paper
-          elevation={3}
-          sx={{
-            padding: "20px",
-            backgroundColor: "transparent",
-
-            backgroundImage: "none",
-            borderRadius: "10px", // Rounded corners
-            width: "100%", // Full width for responsiveness
-          }}
-        >
-          <Grid
-            container
-            sx={{ alignItems: "center", justifyContent: "space-around" }}
-            spacing={3}
-          >
-            <Grid
-              item
-              xs={12}
-              sm={6}
-              md={4}
-              display="flex"
-              justifyContent="center"
-            >
-              <LangSection Lang="HTML" />
-            </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={6}
-              md={4}
-              display="flex"
-              justifyContent="center"
-            >
-              <LangSection Lang="CSS" />
-            </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={6}
-              md={4}
-              display="flex"
-              justifyContent="center"
-            >
-              <LangSection Lang="PHP" />
-            </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={6}
-              md={4}
-              display="flex"
-              justifyContent="center"
-            >
-              <LangSection Lang="JavaScript" />
-            </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={6}
-              md={4}
-              display="flex"
-              justifyContent="center"
-            >
-              <LangSection Lang="React" />
-            </Grid>
-          </Grid>
-        </Paper>
+        <SwipeSectionPage />
       </Container>
+      <TrendingCarousel />
     </ThemeProvider>
   );
 }

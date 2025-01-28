@@ -1,4 +1,3 @@
-import React from "react";
 import bgNumbersGif from "../assets/bg numbers.gif";
 import normalProgrammerGif from "../assets/normal-programer.gif";
 

@@ -9,7 +9,7 @@ const LearnPage = () => {
     <div className="min-h-screen bg-gray-900 text-white p-8">
       {/* Welcome Section */}
       <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold">Welcome to NetPulse</h1>
+        <h1 className="text-4xl font-bold">Welcome to ZeroWebSchool</h1>
         <Typography variant="h6" className="mt-4">
           "Everybody has talent, but ability takes hard work."
         </Typography>

@@ -173,9 +173,9 @@ const Tutorials = () => {
           Net Pulse is optimized for learning and training. Examples might be
           simplified to improve reading and learning. Tutorials, references, and
           examples are constantly reviewed to avoid errors, but we cannot
-          warrant full correctness of all content. While using NetPulse, you
-          agree to have read and accepted our terms of use, cookie and privacy
-          policy.
+          warrant full correctness of all content. While using ZeroWebSchool,
+          you agree to have read and accepted our terms of use, cookie and
+          privacy policy.
         </Typography>
         <Typography variant="body2" sx={{ mt: 2 }}>
           Copyright2024 by Refsnes Data. All Rights Reserved. Net Pulse is

@@ -24,7 +24,7 @@ const servicesData = [
   {
     title: "Create a Website",
     description:
-      "Create your own website with NetPulse Spaces - no setup required",
+      "Create your own website with ZeroWebSchool Spaces - no setup required",
   },
   {
     title: "Exercises",
@@ -38,11 +38,12 @@ const servicesData = [
   {
     title: "Log in / Sign Up",
     description:
-      "Create a free NetPulse Account to Improve Your Learning Experience",
+      "Create a free ZeroWebSchool Account to Improve Your Learning Experience",
   },
   {
     title: "Pathfinder & My Learning",
-    description: "Track your learning progress at NetPulse and collect rewards",
+    description:
+      "Track your learning progress at ZeroWebSchool and collect rewards",
   },
   {
     title: "Upgrade",
@@ -71,7 +72,7 @@ const servicesData = [
   {
     title: "Web Hosting",
     description:
-      "Host your own website, and share it to the world with NetPulse Spaces",
+      "Host your own website, and share it to the world with ZeroWebSchool Spaces",
   },
   {
     title: "Create a Server",
@@ -101,7 +102,7 @@ const servicesData = [
   },
   {
     title: "Code Game",
-    description: "NetPulse Coding Game! Help the lynx collect pine cones",
+    description: "ZeroWebSchool Coding Game! Help the lynx collect pine cones",
   },
   {
     title: "Set Goal",
@@ -116,16 +117,16 @@ const servicesData = [
   {
     title: "For Teachers",
     description:
-      "Contact us about NetPulse Academy for educational institutions",
+      "Contact us about ZeroWebSchool Academy for educational institutions",
   },
   {
     title: "For Businesses",
-    description: "Contact us about NetPulse Academy for your organization",
+    description: "Contact us about ZeroWebSchool Academy for your organization",
   },
   {
     title: "Contact Us",
     description:
-      "About sales: sales@netpulse.com, About errors: help@netpulse.com",
+      "About sales: sales@ZeroWebSchool.com, About errors: help@ZeroWebSchool.com",
   },
 ];
 
@@ -178,9 +179,9 @@ const Services = () => {
           </Button>
         </Box>
         <Typography variant="body1" sx={{ mt: 2 }}>
-          NetPulse offers a wide range of services and products for beginners
-          and professionals, helping millions of people everyday to learn and
-          master new skills.
+          ZeroWebSchool offers a wide range of services and products for
+          beginners and professionals, helping millions of people everyday to
+          learn and master new skills.
         </Typography>
       </Box>
 
@@ -201,15 +202,15 @@ const Services = () => {
 
       <Box sx={{ mt: 5, textAlign: "center", color: "#fff" }}>
         <Typography variant="body2">
-          NetPulse is optimized for learning and training. Examples might be
-          simplified to improve reading and learning. Tutorials, references, and
-          examples are constantly reviewed to avoid errors, but we cannot
-          warrant full correctness of all content. While using NetPulse, you
-          agree to have read and accepted our terms of use, cookie and privacy
-          policy.
+          ZeroWebSchool is optimized for learning and training. Examples might
+          be simplified to improve reading and learning. Tutorials, references,
+          and examples are constantly reviewed to avoid errors, but we cannot
+          warrant full correctness of all content. While using ZeroWebSchool,
+          you agree to have read and accepted our terms of use, cookie and
+          privacy policy.
         </Typography>
         <Typography variant="body2" sx={{ mt: 2 }}>
-          Copyright2024 by Refsnes Data. All Rights Reserved. NetPulse is
+          Copyright2024 by Refsnes Data. All Rights Reserved. ZeroWebSchool is
           Powered by W3.CSS.
         </Typography>
       </Box>
